@@ -8,10 +8,9 @@ public class Main {
         System.out.println("args = " + args);
         if(true){
             System.out.println("args = " + Arrays.toString(args));
-        }else{
+        }else {
             System.out.println("git last Test !!");
         }
-
 
     }
 }

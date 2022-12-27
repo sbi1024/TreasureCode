@@ -1,16 +1,8 @@
-import java.util.Arrays;
+import controller.CallingCode;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-        System.out.println("git branch name is subDevelop");
-        System.out.println("git branch name is Develop");
-        System.out.println("args = " + args);
-        if(true){
-            System.out.println("args = " + Arrays.toString(args));
-        }else {
-            System.out.println("git last Test !!");
-        }
-
+        // time 패키지를 이용한 날짜계산 비즈니스 로직 use map collection
+        CallingCode.callingTimeByMap();
     }
 }
